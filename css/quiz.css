@@ -2,7 +2,7 @@
 #wrapper {
 	max-width: 80%;
 	margin: auto;
-	border: 10px solid black;
+	border: 5px solid black;
 	padding: 5%;
 }
 
@@ -15,6 +15,20 @@ body {
 
 a {
 	color: #0F08CF;
+}
+
+a:hover {
+	color: #CF0864;
+}
+
+ul {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    line-height: 1.5em;
+    text-align: left;
 }
 
 header {
@@ -70,6 +84,7 @@ footer {
 	float: right;
 	border: 4px solid black;
 	padding: 1%;
+	/*margin: 1%;*/
 }
 
 #resourcesLiked ul {
