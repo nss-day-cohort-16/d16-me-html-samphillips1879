@@ -44,6 +44,7 @@ h1 {
 footer {
 	clear: right;
 	clear: left;
+	/*margin-top: 5em;*/
 	text-align: center;
 	border-top: 2px solid black;
 	padding-top: 1%;
@@ -66,7 +67,7 @@ footer {
 }
 
 #projects {
-	max-width: 75%;
+	max-width: 70%;
 	text-align: justify;
 	float: left;
 	border: 4px solid black;
@@ -89,6 +90,10 @@ footer {
 
 #resourcesLiked ul {
 	list-style-type: none;
+}
+
+#projectsAndResources {
+	float: left;
 }
 /*
 li {
