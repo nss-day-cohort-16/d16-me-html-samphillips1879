@@ -1,0 +1,105 @@
+
+#wrapper {
+	max-width: 90%;
+	margin: auto;
+	border: 5px solid black;
+	padding: 5%;
+}
+
+
+
+body {
+	background-color: #ABD1DE;
+	font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, serif;
+}
+
+a {
+	color: #0F08CF;
+}
+
+a:hover {
+	color: #CF0864;
+}
+
+ul {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+header {
+	max-width: 50%;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, serif;
+}
+
+footer {
+	clear: right;
+	clear: left;
+	/*margin-top: 5em;*/
+	text-align: center;
+	border-top: 2px solid black;
+	padding-top: 1%;
+}
+
+#biography {
+	width: 50%;
+	margin: auto;
+	text-align: justify;
+	border: 4px solid black;
+	padding: 1%;
+	margin-bottom: 3%;
+}
+
+#samSelfie {
+	width: 40%;
+	border-radius: 50%;
+	position: relative;
+	left: 25%;
+}
+
+#projects {
+	max-width: 70%;
+	text-align: justify;
+	float: left;
+	border: 4px solid black;
+	padding: 1%;
+	margin-bottom: 2%;
+
+}
+
+#projects img {
+	max-width: 100%;
+}
+
+
+#resourcesLiked {
+	float: right;
+	border: 4px solid black;
+	padding: 1%;
+	max-width: 15%;
+	overflow: scroll;
+	/*margin: 1%;*/
+}
+
+#resourcesLiked ul {
+	list-style-type: none;
+	/*max-width: 25%;*/
+}
+
+#projectsAndResources {
+	float: left;
+}
+/*
+li {
+	text-align: left;
+}*/
+
